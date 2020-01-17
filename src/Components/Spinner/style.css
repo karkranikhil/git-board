@@ -11,6 +11,7 @@
   z-index: 1040;
   background-color: #000;
   opacity: 0.5;
+  flex-direction: column;
 }
 .spinner {
   width: 100px;
@@ -58,4 +59,10 @@
     transform: scale(1);
     -webkit-transform: scale(1);
   }
+}
+.spinner-text {
+  font-size: 2rem;
+  color: yellow;
+  -webkit-animation: sk-bounce 2s infinite ease-in-out;
+  animation: sk-bounce 2s infinite ease-in-out;
 }

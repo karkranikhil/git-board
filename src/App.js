@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route, Link } from "react-router-dom";
 import logo from "./logo.png";
 import "./App.css";
-import Spinner from "./Components/Spinner/index";
+
 import Header from "./Components/Header/index";
 
 import HomePage from "./Pages/homepage/index";

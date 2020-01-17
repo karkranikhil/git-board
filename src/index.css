@@ -9,8 +9,15 @@ body {
   color: #8898aa;
   box-sizing: border-box;
 }
-a, a:hover{
-  color:#8898aa;
+.wrapper {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+
+}
+a,
+a:hover {
+  color: #8898aa;
 }
 *,
 *:after,
@@ -89,6 +96,9 @@ a.canvasjs-chart-credit,
 }
 .issues {
   background: linear-gradient(87deg, #5e72e4, #825ee4) !important;
+}
+.info {
+  background: linear-gradient(87deg, #11cdef, #1171ef) !important;
 }
 
 /* width */
