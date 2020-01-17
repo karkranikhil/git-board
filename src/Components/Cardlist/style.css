@@ -1,0 +1,59 @@
+/* card */
+
+.card {
+  min-height: 100%;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #444;
+  position: relative;
+  top: 0;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+}
+
+.card:hover {
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card article {
+  padding: 1rem;
+  display: flex;
+  word-break: break-word;
+  flex: 1;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: center;
+}
+.card .thumb {
+  padding: 1rem;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.card p {
+  flex: 1; /* make p grow to fill available space*/
+  line-height: 1.4;
+}
+
+/* typography */
+h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #333;
+}
+
+.card span {
+  font-size: 14px;
+  color: #1f3f49;
+  letter-spacing: 0.05em;
+  margin: 2em 0 0 0;
+}
+.margin-bottom-2rem {
+  margin-bottom: 2rem;
+}

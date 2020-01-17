@@ -1,0 +1,8 @@
+header {
+  font-size: 2rem;
+  font-family: cursive;
+  padding: 0.5rem 1rem;
+  box-shadow: 0px 0px 5px #cdcdcd;
+  background: linear-gradient(87deg, #172b4d, #1a174d) !important;
+  color: #f1f1f1;
+}
