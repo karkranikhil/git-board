@@ -9,7 +9,9 @@ function Header() {
       {isHomePage ? (
         <div className="jumbotron">
           <div className="heading">git board</div>
-          <div>A dashboard for top 100 repositories based on Github Stars</div>
+          <div className="subHeading">
+            A dashboard for top 100 repositories based on Github Stars
+          </div>
         </div>
       ) : (
         <header>

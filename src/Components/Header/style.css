@@ -21,3 +21,8 @@ header {
   font-size: 4rem;
   font-family: cursive;
 }
+.jumbotron .subHeading{
+      margin-top: 1rem;
+    font-size: 20px;
+
+}
