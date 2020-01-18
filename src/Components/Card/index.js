@@ -1,11 +1,10 @@
 import React from "react";
-import { withRouter } from "react-router-dom";
 import Cardlist from "../Cardlist/index";
 import "./style.css";
 
 function Card(props) {
   console.log(props.match);
-  const { reposList, history, match } = props;
+  const { reposList } = props;
   return (
     <div className="row">
       {reposList.map((item, index) => (
@@ -15,4 +14,4 @@ function Card(props) {
   );
 }
 
-export default withRouter(Card);
+export default Card;

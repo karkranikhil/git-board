@@ -8,7 +8,7 @@ function Spinner() {
         <div className="double-bounce1"></div>
         <div className="double-bounce2"></div>
       </div>
-      <div class="spinner-text">Fetching Data..</div>
+      <div className="spinner-text">Fetching Data..</div>
     </div>
   );
 }

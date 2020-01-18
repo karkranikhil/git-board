@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import CanvasJSReact from "../../assets/canvasjs.react";
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 function ColumnChart(props) {
@@ -10,20 +10,21 @@ function ColumnChart(props) {
     },
     axisY: {
       labelFontSize: 16,
-      lineThickness: 0,
+      lineThickness: 0
     },
     axisX: {
       gridThickness: 0,
       tickLength: 0,
       lineThickness: 0,
-      labelFontSize: 16,
+      labelFontSize: 16
     },
-    
+
     animationEnabled: true,
     data: [
       {
         // Change type to "doughnut", "line", "splineArea", etc.
         type: "column",
+        indexLabelFontSize: 16,
         dataPoints: data
       }
     ]

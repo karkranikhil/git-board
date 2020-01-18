@@ -6,3 +6,18 @@ header {
   background: linear-gradient(87deg, #172b4d, #1a174d) !important;
   color: #f1f1f1;
 }
+
+.jumbotron {
+  background: #fff;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background: linear-gradient(87deg, #172b4d, #1a174d) !important;
+}
+.jumbotron .heading {
+  font-size: 4rem;
+  font-family: cursive;
+}

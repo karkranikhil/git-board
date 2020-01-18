@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import CanvasJSReact from "../../assets/canvasjs.react";
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 function BarChart(props) {
   const { data } = props;
-    data.sort(function (a, b) {
-        return b.y - a.y
-    })
+  data.sort(function(a, b) {
+    return b.y - a.y;
+  });
   const options = {
     exportEnabled: true,
     height: 260,
@@ -18,8 +18,8 @@ function BarChart(props) {
       labelFontSize: 16
     },
     axisX: {
-      title: "Languaages",
-      labelFontSize: 16
+      labelFontSize: 16,
+      interval: 1
     },
 
     data: [

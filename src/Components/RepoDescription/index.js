@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 
 function RepoDescription(props) {
+  console.log(props.result)
   const {
     name,
     owner: { login, avatar_url },

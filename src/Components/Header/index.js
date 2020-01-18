@@ -1,8 +1,23 @@
 import React from "react";
+import { Link, withRouter } from "react-router-dom";
 import "./style.css";
 
 function Header() {
-  return <header>git board</header>;
+  let isHomePage = window.location.pathname === "/" ? true : false;
+  return (
+    <>
+      {isHomePage ? (
+        <div className="jumbotron">
+          <div className="heading">git board</div>
+          <div>A dashboard for top 100 repositories based on Github Stars</div>
+        </div>
+      ) : (
+        <header>
+          <Link to="/">git board</Link>
+        </header>
+      )}
+    </>
+  );
 }
 
-export default Header;
+export default withRouter(Header);

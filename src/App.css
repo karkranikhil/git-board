@@ -1,5 +1,12 @@
-main{
+main {
   max-width: 1240px;
-    margin: 0 auto;
-    padding: 2rem 0rem;
+  margin: 0 auto;
+  padding: 2rem 0rem;
+}
+
+.searchbox {
+  padding: 0.7rem 1rem;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 2rem;
 }

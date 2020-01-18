@@ -1,8 +1,7 @@
 import React from "react";
-import Boxlist from "../Boxlist/index";
 import "./style.css";
 
-function Box(props) {
+function ContactChip(props) {
   const { img_url, url, name } = props.data;
   return (
     <a className="chip" href={url} targe="_blank">
@@ -11,4 +10,4 @@ function Box(props) {
   );
 }
 
-export default Box;
+export default ContactChip;

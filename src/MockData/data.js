@@ -1,4 +1,5 @@
 const MOCK={
+    useMock:true,
     TOP_REPO:{
     "total_count": 1411,
     "incomplete_results": false,
@@ -10171,11 +10172,17 @@ const MOCK={
         subscribers_count: 137
       },
     LANGUAGES: {
-        Swift: 108014,
-        Ruby: 7314,
-        "Objective-C": 510,
-        Shell: 281
-      },
+        "JavaScript": 3774688,
+        "HTML": 112434,
+        "CSS": 56821,
+        "C++": 44278,
+        "TypeScript": 19904,
+        "CoffeeScript": 15836,
+        "C": 5225,
+        "Shell": 4551,
+        "Python": 259,
+        "Makefile": 189
+    },
       
     CONTRIBUTORS: [
         {

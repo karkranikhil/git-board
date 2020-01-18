@@ -13,7 +13,6 @@ body {
   width: 90%;
   max-width: 1240px;
   margin: 0 auto;
-
 }
 a,
 a:hover {
@@ -84,21 +83,24 @@ a.canvasjs-chart-credit,
 .canvasjs-chart-toolbar {
   display: none !important;
 }
+header a {
+  text-decoration: none;
+}
 
 .star {
-  background: linear-gradient(87deg, #f5365c, #f56036) !important;
+  background: linear-gradient(87deg, #f5365c, #f56036);
 }
 .fork {
-  background: linear-gradient(87deg, #fb6340, #fbb140) !important;
+  background: linear-gradient(87deg, #fb6340, #fbb140);
 }
 .watch {
-  background: linear-gradient(87deg, #2dce89, #2dcecc) !important;
+  background: linear-gradient(87deg, #2dcecc, #2dce89);
 }
 .issues {
-  background: linear-gradient(87deg, #5e72e4, #825ee4) !important;
+  background: linear-gradient(87deg, #5e72e4, #825ee4);
 }
 .info {
-  background: linear-gradient(87deg, #11cdef, #1171ef) !important;
+  background: linear-gradient(87deg, #1171ef, #11cdef);
 }
 
 /* width */
@@ -123,4 +125,12 @@ a.canvasjs-chart-credit,
 
 .padding-1rem {
   padding: 1rem;
+}
+
+.error-box {
+  background: #be1b1b !important;
+  padding: 1rem;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
 }
