@@ -150,7 +150,11 @@ class DashboardPage extends React.Component {
       return { img_url: item.avatar_url, name: item.login, url: item.url };
     });
     const languagesData = Object.keys(languages).map(item => {
-      return { label: item, y: languages[item] };
+      return {
+        label: item,
+        y: languages[item],
+        indexLabel: `${languages[item]}`
+      };
     });
     const deploymentData =
       deployments && deployments.length > 0
@@ -191,11 +195,11 @@ class DashboardPage extends React.Component {
             <div className="col-12 col-lg-6">
               <div className="section section-fix-height">
                 <div className="section-header fork">
-                  Languages contribution
+                  Top 5 Languages contribution
                 </div>
                 <div className="chart-container">
                   {languagesData.length ? (
-                    <BarChart data={languagesData} />
+                    <BarChart data={languagesData.slice(0, 5)} />
                   ) : (
                     <h1>Languages details are not available</h1>
                   )}

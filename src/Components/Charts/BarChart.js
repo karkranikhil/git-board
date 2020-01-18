@@ -14,7 +14,7 @@ function BarChart(props) {
       text: ""
     },
     axisY: {
-      title: "Number of lines",
+      title: "",
       labelFontSize: 16
     },
     axisX: {
@@ -25,6 +25,7 @@ function BarChart(props) {
     data: [
       {
         type: "bar",
+        indexLabelFontSize: 16,
         toolTipContent: "<div>{label}</b><br>{y} lines of code</div>",
         dataPoints: data.reverse()
       }
